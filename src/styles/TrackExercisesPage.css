@@ -1,0 +1,39 @@
+.track-exercises-container {
+    background-image: url('/assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+  }
+  
+  .content {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .exercise-input {
+    width: 60%;
+    height: 150px;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+  }
+  
+  .log-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .log-button:hover {
+    background-color: #FB8C00;
+  }
+  

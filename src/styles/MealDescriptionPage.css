@@ -1,0 +1,64 @@
+/* Full page background styling */
+.meal-description-container {
+    background-image: url('/assets/background.jpg');
+    background-size: cover; /* Ensures full-page coverage */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps background fixed while scrolling */
+    min-height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Content container styling */
+  .meal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px; /* Ensures it's below the navbar */
+    color: #ffffff; /* White text for better contrast */
+    font-family: Arial, sans-serif;
+  }
+  
+  .meal-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff; /* White for readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds shadow for better contrast */
+    border-bottom: 3px solid #4CAF50;
+    padding-bottom: 10px;
+  }
+  
+  /* Input styling */
+  .meal-input {
+    width: 50%;
+    height: 150px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1rem;
+    outline: none;
+    resize: none; /* Prevent resizing */
+  }
+  
+  /* Button styling */
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  

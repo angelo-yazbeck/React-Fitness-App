@@ -1,0 +1,37 @@
+.change-weight-container {
+    background-image: url('/assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+  }
+  
+  .content {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .weight-input {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px auto;
+  }
+  
+  .update-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-button:hover {
+    background-color: #1976D2;
+  }
+  
